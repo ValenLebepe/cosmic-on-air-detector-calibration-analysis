@@ -28,7 +28,7 @@ The calibration revealed significant differences in detector performance and eff
 *Figure 2: Absolute efficiencies calculated for Radiacode detector for different distances (experimental configurations).*
   
 
-The analysis provided crucial insights for improving data quality in citizen science radiation monitoring.
+The analysis provided crucial insights for **improving** data quality in citizen science radiation monitoring.
 
 ## ⚙️ How It Works: Analysis Pipeline
 
