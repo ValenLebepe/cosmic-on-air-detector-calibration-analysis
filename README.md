@@ -19,12 +19,14 @@ The calibration revealed significant differences in detector performance and eff
 - **RadiaCode detector** showed highest sensitivity: *155.4 ± 0.3 counts per second at 1cm distance*
   
 ![Count rate measurements](https://github.com/ValenLebepe/cosmic-on-air-detector-calibration-analysis/blob/main/Results%20Plots/RadiaCode/Measured%20detector%20count%20rate%20vs%20time%20(background%20corrected%20at%201cm).png)
+
 *Figure 1: Sample count rate measurements from RadiaCode detector at 1cm distance*
 
 - **Absolute efficiencies** varied considerably across measurement configurations
 - **Lead-collimated setup** produced highest efficiency values for all detectors
 
 ![Efficiency Determined](https://github.com/ValenLebepe/cosmic-on-air-detector-calibration-analysis/blob/main/Results%20Plots/RadiaCode/RadiaCode%20Detector%20efficiency%20vs.%20distance.png)
+
 *Figure 2: Absolute efficiencies calculated for Radiacode detector for different distances (experimental configurations).*
   
 
@@ -37,6 +39,7 @@ The analysis is structured in a clear pipeline within the `Codes` directory:
 1. **Data Collection & Background Correction:** Raw count rates were measured and background radiation was subtracted using uncertainty propagation.
    
 ![Count Rate Measurement](https://github.com/ValenLebepe/cosmic-on-air-detector-calibration-analysis/blob/main/Results%20Plots/bGeigie-Zen/Measured%20detector%20count%20rate%20vs%20time%20(background%20corrected%20for%20lead)%20(1).png)
+
 *Figure 3: Sample background subtracted count rate measurements from Safecast (bGeigie-Zen) detector with lead collimation.*
 
 2. **Efficiency Calculation:** Absolute efficiencies were calculated using `ε = R / (D × Ω)`, where R is count rate, D is source activity, and Ω is the solid angle.
@@ -44,6 +47,7 @@ The analysis is structured in a clear pipeline within the `Codes` directory:
 4. **Performance Comparison:** Detector responses were analyzed across different configurations to identify consistency issues.
 
 ![Efficiency Results](https://github.com/ValenLebepe/cosmic-on-air-detector-calibration-analysis/blob/main/Results%20Plots/bGeigie-Zen/SafeCast%20Detector%20efficiency%20vs.%20distancece.png)
+
 *Figure 4: Absolute efficiencies calculated for Safecast detector for different distances (experimental configurations).*
 
 
